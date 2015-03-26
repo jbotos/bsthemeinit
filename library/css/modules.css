@@ -1,0 +1,75 @@
+/*------------------------------------------------------------------------- 
+/*  
+/*  Modules
+/*      
+/*  1.  General
+/*  2.  Search Form
+/*  3.  Contact Us Form
+/*  4.  Footer Form
+/*  
+---------------------------------------------------------------------------
+
+    Extra small devices Phones (<768px) 
+    Small devices Tablets (>768px)
+    Medium devices Desktops >992px)
+    Large devices Desktops (>1200px)
+
+    Extra Small Devices / Mobile
+    @media (max-width: 767px) { }
+    
+    Small Devices
+    @media (min-width: 768px) { }
+    
+    Medium Devices 
+    @media (min-width: 992px) { }
+    
+    Large Devices
+    @media (min-width: 1200px) { }
+*/
+
+/*------ Module Reviews ----------------------------------------------------*/
+
+
+
+
+/*------ Module Thumb & Text ----------------------------------------------------*/
+
+.module-thumb-text .row {
+    margin-bottom: 25px;
+}
+.module-thumb-text h3 {
+    margin-top: 0;
+}
+.module-thumb-text img {
+    margin-bottom: 15px;
+}
+
+/* Extra Small Devices / Mobile */
+@media (max-width: 767px) {
+    .module-thumb-text .col-sm-3 img {
+        margin-bottom: 25px;
+    }
+    .module-thumb-text .row {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
+/* Custom Size: 485 - 759 */
+@media (min-width: 485px) and (max-width: 769px) {
+    .module-thumb-text .col-sm-3 {
+        width: 35%;
+        float: left;
+    }
+    .module-thumb-text .col-sm-9 {
+        width: 65%;
+        float: left;
+    }
+}
+
+/*------ Module Links ----------------------------------------------------*/
+.module-links {
+    font-size: 1.23em;
+}
+.module-links a {
+    margin-right: 15px;
+}
